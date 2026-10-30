@@ -24,7 +24,7 @@ class PipelineControllerTest {
     this.mockMvc = mockMvc;
   }
 
-  /*@Test
+  @Test
   void shouldReturnOkAndCorrectJsonStructure() throws Exception {
     mockMvc
         .perform(get("/api/status").contentType(MediaType.APPLICATION_JSON))
@@ -32,5 +32,5 @@ class PipelineControllerTest {
         .andExpect(jsonPath("$.status").value("UP"))
         .andExpect(jsonPath("$.environment").value("OpenShift Sandbox"))
         .andExpect(jsonPath("$.message").value("Pipeline successfully executed"));
-  }*/
+  }
 }
